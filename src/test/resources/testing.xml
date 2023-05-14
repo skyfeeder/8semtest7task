@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite" verbose="1" >
+    <listeners>
+        <listener class-name="com.example.GenerateReport" />
+    </listeners>
+    <test name="PetStore Test">
+        <classes>
+            <class name="com.example.PetStoreTests"/>
+        </classes>
+    </test>
+    <test name="TrianglePuzzle Test">
+        <classes>
+            <class name="com.example.TrianglePuzzleTest"/>
+        </classes>
+    </test>
+</suite>
